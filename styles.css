@@ -64,7 +64,7 @@ header ul li a {
 } */
 
 .logo h1 {
-    margin-left: 300px;
+    margin-left: 350px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     font-size: 30px;
@@ -80,7 +80,7 @@ header ul li a {
 
 .logo h1 span {
     opacity: 0;
-    animation: reveal 0.1s ease forwards;
+    animation: reveal 5s ease forwards;
 }
 
 .logo h1 span:nth-child(1) { animation-delay: 0.1s; }
@@ -131,7 +131,7 @@ header ul li a {
     list-style: none;
     background: linear-gradient(to right, #007bff, #00bfff);
     padding: 15px 20px;
-    
+    margin-left: 50px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
